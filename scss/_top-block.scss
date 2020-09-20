@@ -1,0 +1,77 @@
+@import "variables";
+
+.block-1 {
+  background: url(../image/three-womens-1block.png) no-repeat;
+  width: 1920px;
+  height: 829px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  width: 945px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.telefon-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.info-text {
+  font-size: 14px;
+  font-family: $MullerRegular;
+  margin-bottom: 10px;
+}
+
+.info-telefon {
+  font-size: 20px;
+  font-family: $MullerBold;
+}
+
+.info {
+  margin-top: 173px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+  font-family: $MullerMedium;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.list-services {
+  font-family: $MullerRegular;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.mesto {
+  font-family: $MullerRegular;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.btn-requst {
+  padding: 20px 70px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-family: $MullerBold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
