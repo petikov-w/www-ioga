@@ -33,7 +33,9 @@
 }
 
 body {
-  background-color: #f8f2e4;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .block-1 {
@@ -138,6 +140,60 @@ body {
 .social-item:hover {
   background: #db883c;
   border: 1px solid #db883c;
+}
+
+.block-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8f2e4;
+  width: 860px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.image_bl2 {
+  margin-right: 80px;
+}
+
+.info-bl2 {
+  width: 391px;
+}
+
+.title-bl2 {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 30px;
+  line-height: 53px;
+  margin-bottom: 30px;
+}
+
+.title-bl2 span {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.info-bl2 p {
+  font-family: "MullerLight", sans-serif;
+  font-size: 16px;
+  margin-bottom: 41px;
+}
+
+.icon-inf {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.icon-inf .icon {
+  margin-right: 21px;
+}
+
+.icon-inf .inf {
+  font-family: "MullerLight", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
