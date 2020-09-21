@@ -2,28 +2,28 @@
 @font-face {
   font-family: "MullerRegular";
   src: url("../fonts/MullerRegular.eot");
-  src: local("☺"), url("../fonts/MullerRegular.woff") format("woff"), url("../fonts/MullerRegular.ttf") format("truetype"), url("../fonts/MullerRegular.svg") format("svg");
+  src: local("☺"), url("../fonts/MullerRegular.woff") format("woff"), url("../fonts/MullerRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MullerBold";
   src: url("../fonts/MullerBold.eot");
-  src: local("☺"), url("../fonts/MullerBold.woff") format("woff"), url("../fonts/MullerBold.ttf") format("truetype"), url("../fonts/MullerBold.svg") format("svg");
+  src: local("☺"), url("../fonts/MullerBold.woff") format("woff"), url("../fonts/MullerBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MullerMedium";
   src: url("../fonts/MullerMedium.eot");
-  src: local("☺"), url("../fonts/MullerMedium.woff") format("woff"), url("../fonts/MullerMedium.ttf") format("truetype"), url("../fonts/MullerMedium.svg") format("svg");
+  src: local("☺"), url("../fonts/MullerMedium.woff") format("woff"), url("../fonts/MullerMedium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "MullerLight";
   src: url("../fonts/MullerLight.eot");
-  src: local("☺"), url("../fonts/MullerLight.woff") format("woff"), url("../fonts/MullerLight.ttf") format("truetype"), url("../fonts/MullerLight.svg") format("svg");
+  src: local("☺"), url("../fonts/MullerLight.woff") format("woff"), url("../fonts/MullerLight.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -99,17 +99,45 @@ body {
   font-family: "MullerRegular", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .btn-requst {
   padding: 20px 70px;
   border: 2px solid #fff;
   color: #fff;
+  letter-spacing: 1px;
   background: transparent;
   font-family: "MullerBold", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
+  margin-bottom: 145px;
+}
+
+.btn-requst:hover {
+  background: #db883c;
+  border: 2px solid #db883c;
+}
+
+.social {
+  display: flex;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background: transparent;
+  margin: 0 5px;
+}
+
+.social-item:hover {
+  background: #db883c;
+  border: 1px solid #db883c;
 }
 
 /*# sourceMappingURL=style.css.map */
