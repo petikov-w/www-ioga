@@ -1,0 +1,61 @@
+@import "variables";
+
+.block-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8f2e4;
+  height: 487px;
+}
+
+.slider {
+  margin-top: 82px;
+}
+
+.block-6 .title-bl6 {
+  font-family: $MullerMedium;
+  font-size: 36px;
+  margin-top: 80px;
+  margin-bottom: 17px;
+}
+
+.cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+.cont .box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffff;
+  width: 880px;
+  height: 470px;
+  color:#fff;
+  background-color: rgba(67,53,53, 0.4);
+  z-index: 777;
+}
+
+.cont .box .title-slide {
+  font-family: $MullerMedium;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.cont .box p {
+  font-family: $MullerRegular;
+  font-size: 18px;
+  font-weight: 300;
+  width: 470px;
+  text-align: center;
+}

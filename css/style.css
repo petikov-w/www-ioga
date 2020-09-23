@@ -308,12 +308,12 @@ body {
 }
 
 .cards-tour {
-  margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 940px;
+  margin: 70px 0;
 }
 
 .card-tour {
@@ -358,10 +358,120 @@ body {
   margin: 0px 20px 20px 20px;
 }
 
-.btn-requst-sm:hover {
+.btn-requst-sm:hover, .btn-requst-sm:focus {
   background: #db883c;
   border: 2px solid #db883c;
   color: #ffffff;
+  outline: none;
+}
+
+.btn-requst-sm:active {
+  outline: none;
+}
+
+.block-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8f2e4;
+  height: 487px;
+}
+
+.slider {
+  margin-top: 82px;
+}
+
+.block-6 .title-bl6 {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 36px;
+  margin-top: 80px;
+  margin-bottom: 17px;
+}
+
+.cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cont .box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffff;
+  width: 880px;
+  height: 470px;
+  color: #fff;
+  background-color: rgba(67, 53, 53, 0.4);
+  z-index: 777;
+}
+
+.cont .box .title-slide {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.cont .box p {
+  font-family: "MullerRegular", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 470px;
+  text-align: center;
+}
+
+.block-7, .inf-block-7, .cards-list {
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title-bl7 {
+  margin-top: 350px;
+  font-family: "MullerMedium", sans-serif;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.sub-title-bl7 {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 24px;
+}
+
+.card-list, .inf-block-7 p {
+  font-family: "MullerLight", sans-serif;
+  font-size: 18px;
+}
+
+.inf-block-7 p {
+  text-align: center;
+  margin: 65px 0;
+}
+
+.cards-list {
+  margin: 50px 0;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.card-list p {
+  width: 460px;
+  margin-left: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,13 +16,14 @@
 }
 
 .cards-tour {
-  margin-top: 70px;
+  //margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 940px;
   //margin: 0 auto;
+  margin: 70px 0;
 }
 
 .card-tour {
@@ -72,8 +73,13 @@
   //margin-bottom: 145px;
 }
 
-.btn-requst-sm:hover {
+.btn-requst-sm:hover, .btn-requst-sm:focus {
   background: #db883c;
   border: 2px solid #db883c;
   color: #ffffff;
+  outline: none;
+}
+
+.btn-requst-sm:active {
+  outline: none;
 }
