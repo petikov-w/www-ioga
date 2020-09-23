@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 270px;
 }
 
 .title-bl5 {
@@ -22,29 +22,53 @@
   align-items: center;
   flex-wrap: wrap;
   width: 940px;
-  margin: 0 auto;
+  //margin: 0 auto;
 }
 
 .card-tour {
-  margin-top: 40px;
-  width: 220px;
-  height: 180px;
+  //margin-top: 40px;
+  width: auto;
+  //height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f8f2e4;;
+  background-color: #f8f2e4;
+  //padding: 30px 20px 20px 20px;
+  //margin-bottom: 40px;
+  flex-basis: 23%;
+  margin: 8px;
+}
+
+.date-event {
+  font-family: $MullerLight;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.theme-event {
+  font-family: $MullerMedium;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.link-more {
+  font-family: $MullerRegular;
+  font-size: 12px;
+  margin-bottom: 15px;
 }
 
 .btn-requst-sm {
-  padding: 15px 30px;
+  padding: 10px 15px;
   border: 2px solid #db883c;
   color: #db883c;
   letter-spacing: 1px;
   background: transparent;
-  font-family: $MullerBold;
+  font-family: $MullerMedium;
   font-size: 12px;
   text-transform: uppercase;
+  margin: 0px 20px 20px 20px;
   //margin-bottom: 145px;
 }
 
