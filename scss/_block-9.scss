@@ -1,0 +1,64 @@
+@import "variables";
+
+.block-9 {
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.overlay-bl9 {
+  height: 1140px;
+  position: absolute;
+  background-color: #f8f2e4;
+  z-index: 0;
+}
+
+.image-bl9 {
+  width: 940px;
+  height: 540px;
+  margin: 10px 0;
+}
+
+.zig {
+  margin-bottom: 60px;
+}
+
+.title-bl9 {
+  margin-top: 80px;
+  margin-bottom: 17px;
+  font-family: $MullerMedium;
+  font-size: 36px;
+}
+
+.instructor {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  //width: 940px;
+  //margin: 0 auto;
+}
+
+.instructor .instr-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 940px;
+  height: 170px;
+  color:#fff;
+  background-color: rgba(67,53,53, 0.4);
+  z-index: 777;
+  margin-bottom: 10px;
+}
+
+.name-instr {
+  font-family: $MullerMedium;
+  font-size: 30px;
+  margin: 40px 0 0 60px;
+}
