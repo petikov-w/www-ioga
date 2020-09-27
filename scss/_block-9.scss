@@ -1,28 +1,19 @@
-@import "variables";
-
 .overlay-bl9 {
-  height: 1140px;
-  width: 1920px;
+  @include vh_size(1920px, 1140px);
   position: absolute;
   background-color: #f8f2e4;
   z-index: 0;
 }
 
 .block-9 {
+  @include flex(column, center, center);
   width: 940px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   position: relative;
 }
 
-
-
 .image-bl9 {
-  width: 940px;
-  height: 540px;
+  @include vh_size(940px, 540px);
 }
 
 .zig {
@@ -30,44 +21,34 @@
 }
 
 .title-bl9 {
-  margin-top: 70px;
-  margin-bottom: 17px;
-  font-family: $MullerMedium;
-  font-size: 36px;
+  @include use_font($MullerMedium, 36px);
+  margin: 70px 0 17px 0;
 }
 
 .instructor {
+  @include flex(row, flex-start, flex-end);
   position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
   margin-bottom: 20px;
 }
 
 .instructor .instr-box  {
+  @include flex(row, flex-start, center);
+  @include vh_size(940px, 170px);
   position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 940px;
-  height: 170px;
   color:#fff;
   background-color: rgba(67,53,53, 0.4);
   z-index: 777;
 }
 
 .name-instr {
-  font-family: $MullerMedium;
-  font-size: 30px;
-  margin: 0 0 0 60px;
+  @include use_font($MullerMedium, 30px);
+  margin: 0 10px 0 60px;
   width: 280px;
   z-index: 777;
-  margin-right: 10px;
 }
 
 .name-instr .sis {
-  font-family: $MullerRegularItalic;
-  font-size: 16px;
+  @include use_font($MullerRegularItalic, 16px);
   line-height: 1.2;
   display: block;
   margin-top: 18px;
@@ -75,16 +56,14 @@
 
 
 .instructor p {
-  font-family: $MullerRegular;
-  font-size: 14px;
+  @include use_font($MullerRegular, 14px);
   width: 460px;
   z-index: 777;
   color: #ffffff;
 }
 
 .separator {
-  width: 2px;
-  height: 80px;
+  @include vh_size(2px, 80px);
   border: 1px solid #ffffff;
   background-color: #ffffff;
   margin-right: 50px;
