@@ -7,6 +7,13 @@
 }
 
 @font-face {
+  font-family: 'MullerRegularItalic';
+  src: local('☺'), url('../fonts/MullerRegularItalic.woff') format('woff'), url('../fonts/MullerRegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
   font-family: 'MullerBold';
   src: url('../fonts/MullerBold.eot');
   src: local('☺'), url('../fonts/MullerBold.woff') format('woff'), url('../fonts/MullerBold.ttf') format('truetype');
