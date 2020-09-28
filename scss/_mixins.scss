@@ -5,9 +5,23 @@
   font-size: $size;
 }
 
-@mixin vh_size($width, $height) {
+//@mixin wh_size($width, $height) {
+//  width: $width;
+//  height: $height;
+//}
+
+@mixin wh_size($width, $height, $type-circle:none) {
   width: $width;
   height: $height;
+
+  @if $type-circle == circle {
+    border-radius:100%;
+  }
+  @else if $type-circle == edge {
+    border-radius:30px;
+  }
+  @else {
+  }
 }
 
 @mixin flex($direction, $justify, $align) {

@@ -1,0 +1,49 @@
+.block-10 {
+  @include flex(column,center,center);
+  margin-bottom: 50px;
+}
+
+.title-bl10 {
+  font-family: $MullerMedium;
+  font-size: 30px;
+  margin: 60px 0 10px 0;
+}
+
+.slider {
+  @include flex(row,center,center);
+}
+
+.card-testimonial {
+  @include flex(row,center,center);
+  @include wh_size(940px, 200px);
+  margin: 0 auto;
+}
+
+// Фото отзыва
+.image-bl10 {
+  @include wh_size(150px, 150px, circle);
+  width: 150px!important;
+}
+
+// Инфоблок отзыва
+.info-testimonial {
+  @include flex(column,flex-start,flex-start);
+  @include use_font($MullerRegularItalic, 14px);
+  width: 560px;
+  margin: 0 0 0 40px;
+}
+
+.info-testimonial a {
+  @include use_font($MullerLight, 12px);
+  color: #c94410;
+  margin: 0 0 20px 0;
+
+}
+
+.title-testimonial {
+  @include use_font($MullerRegular, 18px);
+  margin: 0 0 6px 0;
+}
+.title-testimonial .bold-title {
+  @include use_font($MullerBold, 18px);
+}

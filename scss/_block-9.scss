@@ -1,5 +1,5 @@
 .overlay-bl9 {
-  @include vh_size(1920px, 1140px);
+  @include wh_size(1920px, 1140px);
   position: absolute;
   background-color: #f8f2e4;
   z-index: 0;
@@ -13,7 +13,7 @@
 }
 
 .image-bl9 {
-  @include vh_size(940px, 540px);
+  @include wh_size(940px, 540px);
 }
 
 .zig {
@@ -33,7 +33,7 @@
 
 .instructor .instr-box  {
   @include flex(row, flex-start, center);
-  @include vh_size(940px, 170px);
+  @include wh_size(940px, 170px);
   position: absolute;
   color:#fff;
   background-color: rgba(67,53,53, 0.4);
@@ -63,7 +63,7 @@
 }
 
 .separator {
-  @include vh_size(2px, 80px);
+  @include wh_size(2px, 80px);
   border: 1px solid #ffffff;
   background-color: #ffffff;
   margin-right: 50px;
