@@ -9,7 +9,11 @@
   margin: 60px 0 10px 0;
 }
 
-.slider {
+.zig10 {
+  margin: 0 0 40px 0;
+}
+
+.slider2 {
   @include flex(row,center,center);
 }
 
@@ -17,6 +21,7 @@
   @include flex(row,center,center);
   @include wh_size(940px, 200px);
   margin: 0 auto;
+  position: relative;
 }
 
 // Фото отзыва
@@ -46,4 +51,11 @@
 }
 .title-testimonial .bold-title {
   @include use_font($MullerBold, 18px);
+}
+
+svg {
+  //position: absolute;
+  //right: 500px;
+  //top: 50px;
+  //@include flex(row,center,center);
 }

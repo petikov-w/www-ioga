@@ -668,7 +668,11 @@ body {
   margin: 60px 0 10px 0;
 }
 
-.slider {
+.zig10 {
+  margin: 0 0 40px 0;
+}
+
+.slider2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -683,6 +687,7 @@ body {
   width: 940px;
   height: 200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .image-bl10 {
@@ -719,6 +724,131 @@ body {
 .title-testimonial .bold-title {
   font-family: "MullerBold", sans-serif;
   font-size: 18px;
+}
+
+.block-11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.overlay-bl11 {
+  width: 1920px;
+  height: 890px;
+  position: absolute;
+  background-color: #f8f2e4;
+  z-index: 0;
+}
+
+.title-bl11 {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 30px;
+  margin: 60px 0 10px 0;
+}
+
+.zig11 {
+  margin: 0 0 40px 0;
+}
+
+.cards-v {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  flex-basis: 23%;
+  margin: 25px 40px 25px 40px;
+}
+
+.title-card-v {
+  font-family: "MullerBold", sans-serif;
+  font-size: 18px;
+  margin: 38px 0 19px 0;
+}
+
+.card-v p {
+  font-family: "MullerLight", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.image-bl11 {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  width: 120px !important;
+}
+
+.block-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.title-bl12 {
+  font-family: "MullerMedium", sans-serif;
+  font-size: 30px;
+  margin: 80px 0 20px 0;
+}
+
+.sub-title-bl12 {
+  font-family: "MullerRegularItalic", sans-serif;
+  font-size: 18px;
+  margin: 60px 0 37px 0;
+}
+
+.image-bl12 {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  width: 90px !important;
+  margin: 0 0 25px 0;
+}
+
+.cards-v2 {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card-v2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+}
+
+.card-v2 p, .card-v2 a {
+  font-family: "MullerRegular", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-v2 a {
+  color: #ea7231;
+}
+
+.sss {
+  width: 25px;
+  height: 17px;
+  margin: 40px 0 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
